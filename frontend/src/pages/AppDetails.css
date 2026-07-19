@@ -1,0 +1,114 @@
+.app-details-page {
+  min-height: 100vh;
+  background-color: #0f0f0f;
+  padding: 30px 20px;
+}
+
+.app-details {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app-header {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+.app-icon-large {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #0f0f0f;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-icon-large img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app-title-section h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.package-name {
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.app-rating {
+  display: flex;
+  gap: 20px;
+  font-size: 1.1rem;
+}
+
+.download-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}
+
+.app-content section {
+  margin-bottom: 30px;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+.app-content h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.app-content ul {
+  list-style: none;
+}
+
+.app-content ul li {
+  padding: 8px 0;
+  color: #ddd;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.info-grid div strong {
+  color: #007bff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.loading-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #999;
+}
