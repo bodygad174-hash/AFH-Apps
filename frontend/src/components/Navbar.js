@@ -25,6 +25,11 @@ function Navbar({ user, setUser }) {
               الرئيسية
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/jokes" className="nav-link">
+              🎭 النكات
+            </Link>
+          </li>
 
           {!user ? (
             <>
